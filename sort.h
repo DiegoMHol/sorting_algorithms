@@ -34,5 +34,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void swapfro(listint_t *head, listint_t **list);
 void swapback(listint_t *head, listint_t **list);
+void _lomuto(int *array, int lo, int hi, size_t size);
+int lo_partition(int *array, int lo, int hi, size_t size);
 
 #endif
